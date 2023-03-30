@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora de plantão de enfermagem</title>
+</head>
+<body>
+	<h1>Calculadora de plantão de enfermagem</h1>
+	
+	<form>
+		<fieldset>
+			<legend>Constante de Marinho</legend>
+			<label for="ds">Dias da semana:</label>
+			<input type="text" id="ds" name="ds"><br>
+			<label for="jst">Jornada semanal de trabalho:</label>
+			<input type="text" id="jst" name="jst"><br>
+			<label for="ist">Índice de segurança técnica:</label>
+			<input type="text" id="ist" name="ist"><br>
+			<button type="button" onclick="calcularConstante()">Calcular</button><br>
+			<label for="km">Constante de Marinho:</label>
+			<span id="km"></span>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Tempo de horas de enfermagem</legend>
+			<label for="pcm">PCM:</label>
+			<input type="text" id="pcm" name="pcm"><br>
+			<label for="pci">PCI:</label>
+			<input type="text" id="pci" name="pci"><br>
+			<label for="pcad">PCAD:</label>
+			<input type="text" id="pcad" name="pcad"><br>
+			<label for="pcsi">PCSI:</label>
+			<input type="text" id="pcsi" name="pcsi"><br>
+			<label for="pcit">PCIt:</label>
+			<input type="text" id="pcit" name="pcit"><br>
+			<button type="button" onclick="calcularTHE()">Calcular</button><br>
+			<label for="the">Tempo de horas de enfermagem:</label>
+			<span id="the"></span>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Quadro de Profissionais</legend>
+			<button type="button" onclick="calcularQP()">Calcular</button><br>
+			<label for="qp">Quadro de Profissionais:</label>
+			<span id="qp"></span>
+		</fieldset>
+	</form>
+	
+	<script src="LógicaCálculo.js"></script>
+</body>
+</html>
