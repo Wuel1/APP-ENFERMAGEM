@@ -1,0 +1,72 @@
+/* Estilo do body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo do cabeçalho */
+  h1 {
+    text-align: center;
+    color: #008080;
+    margin-top: 20px;
+  }
+  
+  /* Estilo dos fieldsets */
+  fieldset {
+    margin-bottom: 20px;
+    border: 2px solid #008080;
+    padding: 20px;
+  }
+  
+  legend {
+    color: #008080;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  /* Estilo dos labels e inputs */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #008080;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  /* Estilo dos botões */
+  button[type="button"] {
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #006666;
+  }
+  
+  /* Estilo dos spans */
+  span {
+    font-weight: bold;
+    color: #008080;
+    font-size: 16px;
+  }
+
+  div {
+    font-weight: bold;
+    color: #008080;
+    font-size: 16px;
+  }
+  

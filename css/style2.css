@@ -1,0 +1,134 @@
+/* Estilo global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    align: center
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #666;
+    font-size: 18px;
+    transition: color 0.2s;
+  }
+  
+  nav a:hover {
+    color: #333;
+  }
+  
+  /* Estilo dos formulários */
+  form {
+    margin-top: 20px;
+  }
+  
+  fieldset {
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  button {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
+  
+  span.resultado {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .resultado {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  .resultado h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .resultado-item {
+    margin-bottom: 20px;
+  }
+  
+  .resultado-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .resultado-item span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

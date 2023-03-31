@@ -1,48 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Calculadora de plantão de enfermagem</title>
+    <meta charset='utf-8'>
+    <title> Calculo de Enfermagem </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css'  href='css/style.css'>
 </head>
-<body>
-	<h1>Calculadora de plantão de enfermagem</h1>
+<body class="Fundo">
+	<h1 align="Center">Calculadora de plantão de enfermagem</h1>
 	
 	<form>
-		<fieldset>
-			<legend>Constante de Marinho</legend>
+		<fieldset class="Forms" align="Center">
+			<legend> <strong> | Constante Marinho | </strong></legend>
 			<label for="ds">Dias da semana:</label>
-			<input type="text" id="ds" name="ds"><br>
+			<input type="text" id="ds" name="ds"><br><br>
 			<label for="jst">Jornada semanal de trabalho:</label>
-			<input type="text" id="jst" name="jst"><br>
+			<input type="text" id="jst" name="jst"><br><br>
 			<label for="ist">Índice de segurança técnica:</label>
-			<input type="text" id="ist" name="ist"><br>
-			<button type="button" onclick="calcularConstante()">Calcular</button><br>
+			<input type="text" id="ist" name="ist"><br><br>
+			<button type="button" onclick="calcularConstante()">Calcular</button><br><br>
 			<label for="km">Constante de Marinho:</label>
 			<span id="km"></span>
 		</fieldset>
 		
-		<fieldset>
-			<legend>Tempo de horas de enfermagem</legend>
+		<fieldset class="Forms" align="Center">
+			<legend><strong>| Tempo de horas de enfermagem |</strong></legend>
 			<label for="pcm">PCM:</label>
-			<input type="text" id="pcm" name="pcm"><br>
+			<input type="text" id="pcm" name="pcm"><br><br>
 			<label for="pci">PCI:</label>
-			<input type="text" id="pci" name="pci"><br>
+			<input type="text" id="pci" name="pci"><br><br>
 			<label for="pcad">PCAD:</label>
-			<input type="text" id="pcad" name="pcad"><br>
+			<input type="text" id="pcad" name="pcad"><br><br>
 			<label for="pcsi">PCSI:</label>
-			<input type="text" id="pcsi" name="pcsi"><br>
+			<input type="text" id="pcsi" name="pcsi"><br><br>
 			<label for="pcit">PCIt:</label>
-			<input type="text" id="pcit" name="pcit"><br>
-			<button type="button" onclick="calcularTHE()">Calcular</button><br>
+			<input type="text" id="pcit" name="pcit"><br><br>
+			<button type="button" onclick="calcularTHE()">Calcular</button><br><br>
 			<label for="the">Tempo de horas de enfermagem:</label>
 			<span id="the"></span>
 		</fieldset>
 		
-		<fieldset>
-			<legend>Quadro de Profissionais</legend>
-			<button type="button" onclick="calcularQP()">Calcular</button><br>
+		<fieldset class="Forms" align="Center">
+			<legend><strong>| Resultado |</strong></legend>
+			<button type="button" onclick="calcularQP()">Calcular</button><br><br>
 			<label for="qp">Quadro de Profissionais:</label>
 			<span id="qp"></span>
 		</fieldset>
+
+		<br>
+
+		<div align="Center">
+			<br>
+				| Todos os Direitos Reservados - Wandson Emanuel |
+			<br>			
+		</div>
 	</form>
 	
 	<script src="LógicaCálculo.js"></script>
